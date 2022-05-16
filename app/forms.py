@@ -10,3 +10,5 @@ class RegisterForm(FlaskForm):
         validators.EqualTo('confirm', message='Passwords do not match')
     ])
     confirm = PasswordField('confirm Password')
+    
+    class
